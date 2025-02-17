@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(./image/bihar.jpg) ;
+    margin: 0;
+}
+.signup-container {
+    background: rgb(254, 171, 99);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.signup-form button {
+    font-style: italic;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-form a{
+    text-decoration: none;
+    color:white;
+}
+.signup-form button:hover {
+    background-color: #218838;
+}
