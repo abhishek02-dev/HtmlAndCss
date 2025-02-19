@@ -150,3 +150,33 @@ ul {
     margin: 0 10px;
     font-size: 30px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-left a{
+display: none;
+    }
+    .navbar a {
+        display: block;
+        margin: 5px 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2em;
+    }
+}
